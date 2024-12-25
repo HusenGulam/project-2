@@ -278,9 +278,9 @@ nav ul {
     justify-content: space-between;
 }
 .cros {
-    width: 350px;
-    height: 350px;
-    padding-top: 30px;
+    width: 320px;
+    height: 295px;
+    padding-top: 69px;
     border-radius: 20px;
     line-height: 47px;
     transition: all 0.3s ease;
@@ -289,6 +289,7 @@ nav ul {
     box-shadow: 0px 0px 50px 0px #0000000A;
 }
 .cros h1 {
+    margin-top: 30px;
     font-weight: 500;
     font-size: 30px;
     line-height: 30px;
@@ -296,10 +297,10 @@ nav ul {
     height: 50px;
 } 
 .cros p {
-   
     font-weight: 400;
     font-size: 14px;
     line-height: 22.64px;
+    padding-bottom: 30px;
     color: #BDBDBD;
 }
 
@@ -313,3 +314,85 @@ nav ul {
     margin: 0 auto;
 }
 
+.cross-img{
+    margin-bottom: 44px;
+}
+.flexible {
+    background: #FFFAF8;
+    height: 900px;
+}
+
+.choose {
+text-align: center;
+}
+
+.status {
+    width: 62%;
+    min-width: 1185px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.str {
+    display: flex;
+    align-items: center;
+}
+
+.choose h1{
+    height: 325px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 333px;
+    
+}
+.tarif {
+    background: white;
+    width: 368px;
+    height: 395px;
+}
+.saqch {
+    width: 303px;
+    margin: 0 auto;
+    line-height: 37px;
+    height: 396px;
+}
+.saqch img {
+    margin-top: 30px;
+}
+.str img {
+    margin-top: 0px;
+}
+.txt img {
+    margin-top: 0;
+}
+.txt span {
+    color: #BDBDBD;
+}
+.txt h4 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #BDBDBD;
+    height: 60px;
+}
+.txt h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #FF7235;
+    width: 101px;
+    padding: 3px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#btnn-1 img {
+    position: relative;
+    top: 5px;
+}
+#btn-1 img {
+    position: relative;
+    top: 5px;
+}
+#btnnn-1 img {
+    position: relative;
+    top: 5px;
+}
