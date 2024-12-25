@@ -244,6 +244,9 @@ nav ul {
     align-items: center;
     height: 80vh;
 }
+.product {
+    height: 1000px;
+}
 .prod-1 {
     display: flex;
     justify-content: space-between;
@@ -318,4 +321,13 @@ nav ul {
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
+}
+.profer, .gord{
+    display: flex;
+    width: 1185px;
+    margin: 0 auto;
+}
+.flexible {
+    background: #FFFAF8;
+
 }
