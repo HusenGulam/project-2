@@ -38,6 +38,26 @@ nav ul {
     color: white;
     padding-bottom: 2px;
 }
+.n-11{
+    display: flex;
+    gap: 10px;
+    height: 43px;
+    align-items: center;
+}
+.n-11 span {
+    width: 29px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 2px;
+    background: #FF7235;
+    color: white;
+    padding-bottom: 13px;
+}
+.n-11 p {
+    font-weight: 500;
+    font-size: 23px;
+}
 .n-3 button{
     width: 154px;
     height: 44px;
@@ -395,4 +415,310 @@ text-align: center;
 #btnnn-1 img {
     position: relative;
     top: 5px;
+}
+#btnnn-2 h3, #btnnn-1 h3{
+    display: flex;
+    align-items: center;
+}
+
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+
+}
+
+.wrapper i {
+    height: 50px;
+    width: 50px;
+    background: rgb(118, 233, 118);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 1.25 rem;
+    transform: translateY(-50%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.wrapper i:first-child {
+    left: -87px;
+
+}
+
+.wrapper i:last-child {
+    right: -87px;
+
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+
+.millions h1 {
+    width: 1053px;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+}
+.million {
+    height: 700px;
+    margin-top: 107px;
+}
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    height: 340px;
+    list-style: none;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    width: 98%;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.card .img img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.card h2 {
+    font-weight: 500;
+    font-size: 1.56rem;
+    margin: 30px 0 5px;
+}
+
+.card span {
+    color: #6a6d78;
+    font-size: 1.31rem;
+
+}
+.carousel p {
+    width: 293px;
+    margin:  0 auto;
+}
+.post-2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 20px;
+}
+.post-2 p {
+    font-weight: 700;
+    font-size: 16px;
+}
+.post-2 p span{
+    font-weight: 400;
+    font-size: 14px;
+}
+.q {
+    width: 333px;
+    border-top: 12px solid #FFBE21;
+    border-radius: 11px
+}
+.w, .y {
+    width: 333px;
+    border-top: 12px solid #4756DF;
+    border-radius: 11px
+}
+.e, .t {
+    width: 333px;
+    border-top: 12px solid #3EC1F3;
+    border-radius: 11px;
+}
+.r {
+    width: 333px;
+    border-top: 12px solid #FF7235;
+    border-radius: 11px
+}
+
+.img {
+    border: 1px solid #F5F5F5;
+    margin: 0 auto;
+    border-radius: 10px 14px 0px 0px;
+}
+
+.downloaded {
+    background: #FF7235;
+    height: 918px;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/Blob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.download {
+    width: 1195px;
+    margin: 0 auto;
+
+}
+
+
+.down-load {
+    text-align: center;
+    height: 400px;
+}
+
+.down-load h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: white;
+    height: 181px;
+}
+
+.down-load p{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    color: white;
+    height: 78px;
+}
+.down-load button {
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+}
+.down-load button a {
+    display: flex;
+    align-items: center;
+    color: #FF7235;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+.down-load button a img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    height: 530px;
+}
+
+
+
+.soda {
+    display: flex;
+    justify-content: space-between;
+    line-height: 39px;
+    border-bottom: 1px solid #BDBDBD33;
+    margin-bottom: 44px;
+}
+.links p, .legal p, .newsletter p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38.81px;
+    color: #292830;
+}
+.links ul, .legal ul {
+    margin-top: 40px;
+    line-height: 29px;
+}
+.links ul li, .legal ul li{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 42px;
+    color: #292830;
+}
+.newsletter p {
+    margin-bottom: 40px
+}
+.newsletter span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #BDBDBD;
+}
+.newsletter h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.64px;
+    color: #BDBDBD;
+}
+.newsletter input {
+    border: none;
+    padding: 13px 35px 13px 17px;
+}
+.newsletter button{
+    border: none;
+    border-radius: 10px;
+}
+.newsletter form {
+    border: 1px solid #292830;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-top: 21px;
+
+}
+.newsletter button {
+    background: #FF7235;
+    padding: 12px 9px 11px 20px;
+    margin: 5px 4px 5px 43px;
+}
+.newsletter button a {
+    color: white;
+    margin-right: 10px;
+}
+
+.privicy, .privicy ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.ftr {
+    margin-top: 81px;
+}
+.links ul {
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+
+    }
 }
