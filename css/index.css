@@ -676,6 +676,7 @@ footer {
 .newsletter input {
     border: none;
     padding: 13px 35px 13px 17px;
+    outline: none;
 }
 .newsletter button{
     border: none;
